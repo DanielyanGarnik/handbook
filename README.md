@@ -20,7 +20,9 @@
 | Файл | Что внутри |
 |---|---|
 | [docs/ROADMAP.md](docs/ROADMAP.md) | План на 16 недель, схемы жизненного цикла, таблица «боль → инструмент» |
-| [docs/HOMEWORK-01.md](docs/HOMEWORK-01.md) | Первое домашнее задание — «Найди боль» |
+| [docs/HOMEWORK-01.md](docs/HOMEWORK-01.md) | ДЗ №1 — «Найди боль» |
+| [docs/LESSON-02.md](docs/LESSON-02.md) | План занятия 2: брейншторм, выбор проектов, поиск заказчиков |
+| [docs/HOMEWORK-02.md](docs/HOMEWORK-02.md) | ДЗ №2 — «Найди заказчика» |
 | [docs/IDEA-PIPELINE.md](docs/IDEA-PIPELINE.md) | Устройство инбокса идей и организации на GitHub |
 | [templates/idea-card.md](templates/idea-card.md) | Шаблон карточки идеи — [RU](templates/idea-card.md) · [HY](templates/idea-card.hy.md) · [EN](templates/idea-card.en.md) |
 | [docs/telegram-messages.md](docs/telegram-messages.md) | Готовые сообщения для чата (RU / HY / EN) |

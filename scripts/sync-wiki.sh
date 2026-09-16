@@ -29,6 +29,8 @@ PAGES="
 README.md|Home
 docs/ROADMAP.md|Roadmap
 docs/HOMEWORK-01.md|Homework-01
+docs/HOMEWORK-02.md|Homework-02
+docs/LESSON-02.md|Lesson-02
 docs/IDEA-PIPELINE.md|Idea-Pipeline
 docs/telegram-messages.md|Telegram-Messages
 templates/idea-card.md|Idea-Card
@@ -47,6 +49,8 @@ rewrite_links() {
         -e 's#\]\(README\.md#](Home#g' \
         -e 's#\]\(ROADMAP\.md#](Roadmap#g' \
         -e 's#\]\(HOMEWORK-01\.md#](Homework-01#g' \
+        -e 's#\]\(HOMEWORK-02\.md#](Homework-02#g' \
+        -e 's#\]\(LESSON-02\.md#](Lesson-02#g' \
         -e 's#\]\(IDEA-PIPELINE\.md#](Idea-Pipeline#g' \
         -e 's#\]\(telegram-messages\.md#](Telegram-Messages#g' \
         -e 's#\]\(idea-card\.hy\.md#](Idea-Card-HY#g' \
@@ -77,7 +81,9 @@ cat > "$OUT/_Sidebar.md" <<'SIDEBAR'
 
 ### Занятия
 
+- [[Lesson-02]]
 - [[Homework-01]]
+- [[Homework-02]]
 
 ### Шаблоны
 
