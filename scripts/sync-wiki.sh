@@ -31,6 +31,7 @@ docs/ROADMAP.md|Roadmap
 docs/HOMEWORK-01.md|Homework-01
 docs/HOMEWORK-02.md|Homework-02
 docs/LESSON-02.md|Lesson-02
+docs/WEEK-03.md|Week-03
 docs/TEAM-SKILLS.md|Team-Skills
 docs/IDEA-PIPELINE.md|Idea-Pipeline
 docs/telegram-messages.md|Telegram-Messages
@@ -52,6 +53,7 @@ rewrite_links() {
         -e 's#\]\(HOMEWORK-01\.md#](Homework-01#g' \
         -e 's#\]\(HOMEWORK-02\.md#](Homework-02#g' \
         -e 's#\]\(LESSON-02\.md#](Lesson-02#g' \
+        -e 's#\]\(WEEK-03\.md#](Week-03#g' \
         -e 's#\]\(TEAM-SKILLS\.md#](Team-Skills#g' \
         -e 's#\]\(IDEA-PIPELINE\.md#](Idea-Pipeline#g' \
         -e 's#\]\(telegram-messages\.md#](Telegram-Messages#g' \
@@ -85,6 +87,7 @@ cat > "$OUT/_Sidebar.md" <<'SIDEBAR'
 ### Занятия
 
 - [[Lesson-02]]
+- [[Week-03]]
 - [[Homework-01]]
 - [[Homework-02]]
 
