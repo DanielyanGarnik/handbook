@@ -66,7 +66,7 @@ Tick honestly:
 
 - [ ] There's a real user we could invite to class
 - [ ] The first version genuinely fits into two weeks
-- [ ] Built in Python or C++, runs on the school server
+- [ ] Built in Python, runs on the school server
 - [ ] Needs no personal data of students
 - [ ] Needs no money
 - [ ] It's clear how to measure the result
