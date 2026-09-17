@@ -21,7 +21,7 @@
 |---|---|
 | [docs/ROADMAP.md](docs/ROADMAP.md) | План на 8 недель в ежедневном формате, схемы, таблица «боль → инструмент» |
 | [docs/HOMEWORK-01.md](docs/HOMEWORK-01.md) | ДЗ №1 — «Найди боль» |
-| [docs/LESSON-02.md](docs/LESSON-02.md) | Занятие недели 2: брейншторм, выбор проектов, поиск заказчиков |
+| [docs/LESSON-03.md](docs/LESSON-03.md) | Занятие 3 (18.09): брейншторм, выбор проектов, поиск заказчиков |
 | [docs/WEEK-03.md](docs/WEEK-03.md) | Неделя 3 по дням: Python, git, первая программа на сервере |
 | [docs/HOMEWORK-02.md](docs/HOMEWORK-02.md) | ДЗ №2 — «Найди заказчика» |
 | [docs/TEAM-SKILLS.md](docs/TEAM-SKILLS.md) | Стек студентов и что из него следует для команд и выбора проектов |
