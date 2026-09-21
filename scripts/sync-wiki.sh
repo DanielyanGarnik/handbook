@@ -39,6 +39,7 @@ docs/TEAM-SKILLS.md|Team-Skills
 docs/IDEA-PIPELINE.md|Idea-Pipeline
 docs/telegram-messages.md|Telegram-Messages
 lessons/README.md|Lessons
+lessons/HOWTO.md|Howto
 templates/idea-card.md|Idea-Card
 templates/idea-card.hy.md|Idea-Card-HY
 templates/idea-card.en.md|Idea-Card-EN
@@ -53,6 +54,8 @@ rewrite_links() {
         -e 's#\]\(docs/#](#g' \
         -e 's#\]\(templates/#](#g' \
         -e 's#\]\(lessons/README\.md#](Lessons#g' \
+        -e 's#\]\(lessons/HOWTO\.md#](Howto#g' \
+        -e 's#\]\(HOWTO\.md#](Howto#g' \
         -e 's#\]\(lessons/check\.py#](https://github.com/RealSchoolPool/handbook/blob/main/lessons/check.py#g' \
         -e 's#\]\(README\.md#](Home#g' \
         -e 's#\]\(ROADMAP\.md#](Roadmap#g' \
@@ -101,6 +104,7 @@ cat > "$OUT/_Sidebar.md" <<'SIDEBAR'
 - [[Lesson-04]]
 - [[Week-03]]
 - [[Lessons]]
+- [[Howto]]
 - [[Homework-01]]
 - [[Homework-02]]
 

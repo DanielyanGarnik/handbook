@@ -28,6 +28,7 @@
 | [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) | Архитектура трёх проектов: одна форма, правило core/cli, чего не делаем |
 | [docs/CLUSTER.md](docs/CLUSTER.md) | Серверный кластер: изоляция, доступы, деплой, фоллбэки |
 | [lessons/README.md](lessons/README.md) | Задания и `check.py` — проверка, линтер, подсказки |
+| [lessons/HOWTO.md](lessons/HOWTO.md) | Как писать программы по шагам — разбор заданий, чтение ошибок |
 | [docs/TEAM-SKILLS.md](docs/TEAM-SKILLS.md) | Стек студентов и что из него следует для команд и выбора проектов |
 | [docs/IDEA-PIPELINE.md](docs/IDEA-PIPELINE.md) | Устройство инбокса идей и организации на GitHub |
 | [templates/idea-card.md](templates/idea-card.md) | Шаблон карточки идеи — [RU](templates/idea-card.md) · [HY](templates/idea-card.hy.md) · [EN](templates/idea-card.en.md) |
