@@ -31,6 +31,7 @@ docs/ROADMAP.md|Roadmap
 docs/HOMEWORK-01.md|Homework-01
 docs/HOMEWORK-02.md|Homework-02
 docs/LESSON-03.md|Lesson-03
+docs/LESSON-04.md|Lesson-04
 docs/WEEK-03.md|Week-03
 docs/TEAM-SKILLS.md|Team-Skills
 docs/IDEA-PIPELINE.md|Idea-Pipeline
@@ -53,6 +54,7 @@ rewrite_links() {
         -e 's#\]\(HOMEWORK-01\.md#](Homework-01#g' \
         -e 's#\]\(HOMEWORK-02\.md#](Homework-02#g' \
         -e 's#\]\(LESSON-03\.md#](Lesson-03#g' \
+        -e 's#\]\(LESSON-04\.md#](Lesson-04#g' \
         -e 's#\]\(WEEK-03\.md#](Week-03#g' \
         -e 's#\]\(TEAM-SKILLS\.md#](Team-Skills#g' \
         -e 's#\]\(IDEA-PIPELINE\.md#](Idea-Pipeline#g' \
@@ -87,6 +89,7 @@ cat > "$OUT/_Sidebar.md" <<'SIDEBAR'
 ### Занятия
 
 - [[Lesson-03]]
+- [[Lesson-04]]
 - [[Week-03]]
 - [[Homework-01]]
 - [[Homework-02]]
