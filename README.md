@@ -25,6 +25,9 @@
 | [docs/LESSON-04.md](docs/LESSON-04.md) | Занятие 4 (22.09): команды и первая программа |
 | [docs/WEEK-03.md](docs/WEEK-03.md) | Неделя 3 по дням: Python, git, первая программа на сервере |
 | [docs/HOMEWORK-02.md](docs/HOMEWORK-02.md) | ДЗ №2 — «Найди заказчика» |
+| [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) | Архитектура трёх проектов: одна форма, правило core/cli, чего не делаем |
+| [docs/CLUSTER.md](docs/CLUSTER.md) | Серверный кластер: изоляция, доступы, деплой, фоллбэки |
+| [lessons/README.md](lessons/README.md) | Задания и `check.py` — проверка, линтер, подсказки |
 | [docs/TEAM-SKILLS.md](docs/TEAM-SKILLS.md) | Стек студентов и что из него следует для команд и выбора проектов |
 | [docs/IDEA-PIPELINE.md](docs/IDEA-PIPELINE.md) | Устройство инбокса идей и организации на GitHub |
 | [templates/idea-card.md](templates/idea-card.md) | Шаблон карточки идеи — [RU](templates/idea-card.md) · [HY](templates/idea-card.hy.md) · [EN](templates/idea-card.en.md) |

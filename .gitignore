@@ -1,0 +1,6 @@
+# Решения студентов и их прогресс — пишутся локально, в репозиторий не едут
+lessons/task*.py
+lessons/.progress.json
+
+__pycache__/
+*.pyc

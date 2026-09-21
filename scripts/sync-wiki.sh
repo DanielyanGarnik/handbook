@@ -28,6 +28,8 @@ rm -f "$OUT"/*.md
 PAGES="
 README.md|Home
 docs/ROADMAP.md|Roadmap
+docs/ARCHITECTURE.md|Architecture
+docs/CLUSTER.md|Cluster
 docs/HOMEWORK-01.md|Homework-01
 docs/HOMEWORK-02.md|Homework-02
 docs/LESSON-03.md|Lesson-03
@@ -36,6 +38,7 @@ docs/WEEK-03.md|Week-03
 docs/TEAM-SKILLS.md|Team-Skills
 docs/IDEA-PIPELINE.md|Idea-Pipeline
 docs/telegram-messages.md|Telegram-Messages
+lessons/README.md|Lessons
 templates/idea-card.md|Idea-Card
 templates/idea-card.hy.md|Idea-Card-HY
 templates/idea-card.en.md|Idea-Card-EN
@@ -49,8 +52,12 @@ rewrite_links() {
         -e 's#\]\(\./#](#g' \
         -e 's#\]\(docs/#](#g' \
         -e 's#\]\(templates/#](#g' \
+        -e 's#\]\(lessons/README\.md#](Lessons#g' \
+        -e 's#\]\(lessons/check\.py#](https://github.com/RealSchoolPool/handbook/blob/main/lessons/check.py#g' \
         -e 's#\]\(README\.md#](Home#g' \
         -e 's#\]\(ROADMAP\.md#](Roadmap#g' \
+        -e 's#\]\(ARCHITECTURE\.md#](Architecture#g' \
+        -e 's#\]\(CLUSTER\.md#](Cluster#g' \
         -e 's#\]\(HOMEWORK-01\.md#](Homework-01#g' \
         -e 's#\]\(HOMEWORK-02\.md#](Homework-02#g' \
         -e 's#\]\(LESSON-03\.md#](Lesson-03#g' \
@@ -85,12 +92,15 @@ cat > "$OUT/_Sidebar.md" <<'SIDEBAR'
 - [[Home]]
 - [[Roadmap]]
 - [[Team-Skills]]
+- [[Architecture]]
+- [[Cluster]]
 
 ### Занятия
 
 - [[Lesson-03]]
 - [[Lesson-04]]
 - [[Week-03]]
+- [[Lessons]]
 - [[Homework-01]]
 - [[Homework-02]]
 
